@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+  <!-- Inspired by Jakes Murphy, legend. -->
+
+<html lang="en-us" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"MapAlerter"}'>
+
+<head>
+        <meta property="fb:pages" content="257012461075137" />
+<meta property="fb:app_id" content="360705897661767" />
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="https://www.mapalerter.com/about/api" />
+	<meta name="keywords" content="MapAlerter, Location alerts, App Alerts, geo-location alerts, County Council Alerts, local government alerts, Carlow County Council Alerts, Wexford County Council Alerts, Limerick County Council, Roscommon County Council, Waterford City Council, Water Service Disruptions, Road Closures, Flood Warnings, Severe Weather Alerts, local planning activity, SMS Text Message, Email, Smartphone App for Android and iPhone, RSS Feed, Social Media, Council Alerts, Smartphone Alerts, Push Notification Alerts" />
+	<meta name="rights" content="MapAlerter.com || Pin Point Alerts Ltd. || www.pinpointalerts.com" />
+	<meta name="author" content="MapAlerter.com" />
+	<meta name="description" content="MapAlerter is a multi-channel alert service for Irish local authorities who wish to deliver instant alerts for specific events. MapAlerter is used by Councils to alert for Water Service Disruptions, Road Closures, Flood Warnings, Severe Weather Alerts, local planning activity and much more. Alerts are delivered by SMS Text Message, Email, Smartphone App for Android and iPhone, RSS Feed and Social Media channels such as Facebook and Twitter. MapAlerter is a free service and there is no cost to receive alerts through any channel." />
+	<meta name="generator" content="MapAlerter.com" />
+	<title>MapAlerter.com - Developer API</title>
+	<link href="/templates/yoo_katana/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://www.mapalerter.com/plugins/system/modalmessages/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="/media/modals/css/bootstrap.min.css?v=6.4.0.p" rel="stylesheet" type="text/css" />
+	<link href="https://www.mapalerter.com/components/com_chronoforms/css/frontforms.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"b83603bf44c013056d323130bb5426b3","system.paths":{"root":"","base":""},"system.keepalive":{"interval":840000,"uri":"\/component\/ajax\/?format=json"}}</script>
+	<script src="/cache/template/jquery.min-a3f32d13.js?398957577300e2511ceec420c6e8797b" type="text/javascript"></script>
+	<script src="/cache/template/jquery-noconflict-98f6036d.js?398957577300e2511ceec420c6e8797b" type="text/javascript"></script>
+	<script src="/cache/template/jquery-migrate.min-2da03276.js?398957577300e2511ceec420c6e8797b" type="text/javascript"></script>
+	<script src="/cache/template/jquery.touchSwipe.min-09dc41d9.js" type="text/javascript"></script>
+	<script src="/cache/template/jquery.colorbox-min-6942e96a.js" type="text/javascript"></script>
+	<script src="/media/modals/js/script.min.js?v=6.4.0.p" type="text/javascript"></script>
+	<script src="/cache/template/bootstrap.min-42db6935.js?398957577300e2511ceec420c6e8797b" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?398957577300e2511ceec420c6e8797b" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/polyfill.event.js?398957577300e2511ceec420c6e8797b" type="text/javascript"></script><![endif]-->
+	<script src="/media/system/js/keepalive.js?398957577300e2511ceec420c6e8797b" type="text/javascript"></script>
+	<script src="/media/widgetkit/uikit2-9f464fed.js" type="text/javascript"></script>
+	<script src="/media/widgetkit/wk-scripts-098fe5de.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	jQuery.noConflict();
+					
+					jQuery(window).load(function()
+					{	
+						var w = jQuery(window);
+						var m = jQuery('#modal-messages');
+						var o = jQuery('#messages-overlay');
+						var b = jQuery('#messages-close-button');
+
+    					var heightRatio = (jQuery(window).height() != 0) ? m.outerHeight() / jQuery(window).height() : 1;
+    					var widthRatio = (jQuery(window).width() != 0) ? m.outerWidth() / jQuery(window).width() : 1;
+
+						m.css('display', 'none');
+    					m.css({position: 'fixed', margin: 0, top: (50*(1-heightRatio)) + '%', left: (50*(1-widthRatio))  + '%'});
+						m.fadeIn('fast');o.fadeIn('fast');b.click(function() { o.fadeOut('fast'); m.fadeOut('fast'); });o.click(function() { o.fadeOut('fast'); m.fadeOut('fast'); });});;
+var modals_class = 'modal_link'; var modals_disable_on_mobile = 0; var modals_mobile_max_width = 767; var modals_open_by_url = ''; var modals_defaults = { opacity: '0.8',maxWidth: '75%',maxHeight: '75%',fixed: 'true',current: '{current} / {total}',previous: 'previous',next: 'next',close: 'close',xhrError: 'This content failed to load.',imgError: 'This image failed to load.' };
+</script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/yoo_katana/apple_touch_icon.png">
+<link rel="stylesheet" href="/cache/template/theme-63a5c0d2.css">
+<script src="/cache/template/theme-95ecded4.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18510483-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body class="tm-sidebar-b-left tm-sidebars-1 tm-isblog tm-fullscreen">
+    
+        <header  data-uk-sticky="{media: 640}" >
+
+                        <div class="tm-toolbar uk-clearfix uk-hidden-small tm-block-dark">
+
+                        <div class="uk-container uk-container-center">
+            
+                
+                                <div class="uk-float-right"><div class="uk-panel"><script type="text/javascript">
+function f(o){
+  o.value=o.value.toUpperCase().replace(/([^a-zA-Z0-9])/g,"");
+}
+
+</script>
+
+
+<style>
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #edfff1;
+  opacity: 0.5; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #edfff1;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #edfff1;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <span style="font-size:15px; font-weight:bold; color:white">Get your alerts on the free app: </span>
+
+
+<a href="https://apps.apple.com/ie/app/id732814462"><img src="/images/app_store_icon.png"></a> <a href="https://play.google.com/store/apps/details?id=com.mapalerter"><img src="/images/play_store_icon.png"></a>
+
+
+
+
+<input type="hidden" name="b83603bf44c013056d323130bb5426b3" value="1" /></div></div>
+                
+                        </div>
+            
+            </div>
+            
+
+                        <nav class="tm-navbar uk-navbar">
+
+                        <div class="uk-container uk-container-center">
+            
+                                <a class="tm-logo uk-hidden-small" href="https://www.mapalerter.com">
+	<p><img src="/images/logo_map_aleter.png" alt="" /></p>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs2 = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js2 = d.createElement(s); js2.id = id;
+  js2.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs2.parentNode.insertBefore(js2, fjs2);
+}(document, 'script', 'facebook-jssdk'));</script></a>
+                
+                                <a class="tm-logo uk-visible-small" href="https://www.mapalerter.com">
+	<p><img src="/images/logo_map_aleter.png" alt="" /></p></a>
+          
